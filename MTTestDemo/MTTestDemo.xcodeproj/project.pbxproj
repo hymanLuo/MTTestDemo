@@ -16,6 +16,7 @@
 		7729298521BE08B900ABBA57 /* MTTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7729298421BE08B900ABBA57 /* MTTestDemoTests.m */; };
 		7729299021BE08B900ABBA57 /* MTTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7729298F21BE08B900ABBA57 /* MTTestDemoUITests.m */; };
 		7729299F21BE6D4400ABBA57 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7729299E21BE6D4400ABBA57 /* MediaPlayer.framework */; };
+		77AF517A21EE287A00AD7E8A /* MTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AF517921EE287A00AD7E8A /* MTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7729298F21BE08B900ABBA57 /* MTTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTestDemoUITests.m; sourceTree = "<group>"; };
 		7729299121BE08B900ABBA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7729299E21BE6D4400ABBA57 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		77AF517821EE287A00AD7E8A /* MTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTest.h; sourceTree = "<group>"; };
+		77AF517921EE287A00AD7E8A /* MTTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				7729296C21BE08B800ABBA57 /* AppDelegate.m */,
 				7729296E21BE08B800ABBA57 /* ViewController.h */,
 				7729296F21BE08B800ABBA57 /* ViewController.m */,
+				77AF517821EE287A00AD7E8A /* MTTest.h */,
+				77AF517921EE287A00AD7E8A /* MTTest.m */,
 				7729297121BE08B800ABBA57 /* Main.storyboard */,
 				7729297421BE08B900ABBA57 /* Assets.xcassets */,
 				7729297621BE08B900ABBA57 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AF517A21EE287A00AD7E8A /* MTTest.m in Sources */,
 				7729297021BE08B800ABBA57 /* ViewController.m in Sources */,
 				7729297B21BE08B900ABBA57 /* main.m in Sources */,
 				7729296D21BE08B800ABBA57 /* AppDelegate.m in Sources */,
